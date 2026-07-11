@@ -1,0 +1,17 @@
+{
+  "name": "Undangan S3",
+  "short_name": "App S3",
+  "description": "Aplikasi Sodaqoh Silaturahmi Solidaritas",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5faf7",
+  "theme_color": "#15803d",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/momisutami/logo-s3/main/logos3trans.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

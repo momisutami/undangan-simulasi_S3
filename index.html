@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Undangan Anggota S3</title>
+  <meta name="description" content="Undangan anggota untuk mencoba aplikasi Sodaqoh Silaturahmi Solidaritas.">
+  <meta name="theme-color" content="#15803d">
+  <style>
+    :root {
+      --green: #169548;
+      --deep: #0d5130;
+      --soft: #edf8f1;
+      --line: #d9eadf;
+      --text: #1f2d26;
+      --muted: #63756b;
+      --gold: #c8911d;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      background: #f5faf7;
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+    }
+    .page {
+      margin: 0 auto;
+      max-width: 720px;
+      padding: 14px;
+    }
+    .hero {
+      background: linear-gradient(145deg, #0f6f39, #1fa853);
+      border-radius: 18px;
+      color: white;
+      padding: 22px 18px;
+    }
+    .brand {
+      align-items: center;
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .logo {
+      background: white;
+      border-radius: 50%;
+      height: 58px;
+      object-fit: contain;
+      padding: 4px;
+      width: 58px;
+    }
+    .brand strong,
+    .brand small { display: block; }
+    .brand small {
+      color: #e8faef;
+      margin-top: 3px;
+    }
+    h1 {
+      font-size: clamp(28px, 8vw, 44px);
+      letter-spacing: 0;
+      line-height: 1.08;
+      margin: 0;
+    }
+    .lead {
+      color: #effbf4;
+      font-size: 16px;
+      line-height: 1.55;
+      margin: 14px 0 0;
+    }
+    .quote {
+      background: rgba(255, 255, 255, .14);
+      border: 1px solid rgba(255, 255, 255, .24);
+      border-radius: 12px;
+      line-height: 1.55;
+      margin-top: 16px;
+      padding: 13px;
+    }
+    .actions {
+      display: grid;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .button {
+      align-items: center;
+      border-radius: 12px;
+      display: flex;
+      font-size: 16px;
+      font-weight: 800;
+      justify-content: center;
+      min-height: 52px;
+      padding: 14px 16px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .button.primary {
+      background: white;
+      color: var(--deep);
+    }
+    .button.secondary {
+      background: #103f2b;
+      color: white;
+    }
+    .section {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      margin-top: 14px;
+      padding: 18px;
+    }
+    .section h2 {
+      font-size: 22px;
+      line-height: 1.2;
+      margin: 0 0 12px;
+    }
+    .cards {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .card {
+      background: #f8fcfa;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .card strong,
+    .card small { display: block; }
+    .card small {
+      color: var(--muted);
+      line-height: 1.4;
+      margin-top: 5px;
+    }
+    .steps {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+    }
+    .step {
+      align-items: flex-start;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 34px 1fr;
+    }
+    .step span {
+      align-items: center;
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      color: var(--deep);
+      display: flex;
+      font-weight: 800;
+      height: 34px;
+      justify-content: center;
+      width: 34px;
+    }
+    .step p {
+      line-height: 1.48;
+      margin: 5px 0 0;
+    }
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ecd28b;
+      border-radius: 12px;
+      color: #674b05;
+      line-height: 1.5;
+      margin-top: 12px;
+      padding: 12px;
+    }
+    .footer {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+      padding: 18px 4px 6px;
+      text-align: center;
+    }
+    @media (max-width: 430px) {
+      .page { padding: 10px; }
+      .hero { border-radius: 14px; padding: 18px 14px; }
+      .section { border-radius: 14px; padding: 15px; }
+      .cards { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="brand">
+        <img class="logo" src="https://raw.githubusercontent.com/momisutami/logo-s3/main/logos3trans.png" alt="Logo S3">
+        <div>
+          <strong>Sodaqoh Silaturahmi Solidaritas</strong>
+          <small>Undangan untuk anggota</small>
+        </div>
+      </div>
+      <h1>Assalamu'alaikum Wr. Wb.</h1>
+      <p class="lead">Sahabat S3, kami mengundang Anda mencoba aplikasi S3 untuk memudahkan sodaqoh, peduli sahabat dan riwayat transaksi kebaikan. karena kita belum mempunyai QR sebagai sistem pembayaran sodaqoh kita, untuk sementara memilih nilai nominal yang ada atau input nominal, kemudian konfirmasi pembayaran dan tunggu verifikasi</p>
+      <div class="quote">Semoga langkah kecil ini menjadi jalan silaturahmi, amanah, dan manfaat bagi sesama.</div>
+      <div class="actions">
+        <a class="button primary" href="https://script.google.com/macros/s/AKfycbz-9QY-j4LjtfVil2a4cy6PsiBaviCXfCB4sG9GDhf30AKWi1pzBMzo5MCFUvAcMYMM/exec" target="_blank" rel="noopener noreferrer">Buka Aplikasi S3</a>
+        <a class="button secondary" href="https://script.google.com/macros/s/AKfycbz-9QY-j4LjtfVil2a4cy6PsiBaviCXfCB4sG9GDhf30AKWi1pzBMzo5MCFUvAcMYMM/exec" target="_blank" rel="noopener noreferrer">Daftar / Login Anggota</a>
+      </div>
+      <div class="note">File undangan ini hanya berisi tulisan dan tombol tautan resmi ke aplikasi S3. Tidak ada file unduhan, tidak ada auto-redirect, dan tidak ada script install.</div>
+    </section>
+
+    <section class="section">
+      <h2>Yang Bisa Dicoba</h2>
+      <div class="cards">
+        <div class="card"><strong>Sodaqoh</strong><small>Pilih nominal, konfirmasi pembayaran, lalu tunggu verifikasi.</small></div>
+        <div class="card"><strong>Peduli Sahabat</strong><small>Ikut membantu program kebaikan khusus yang sedang berjalan.</small></div>
+        <div class="card"><strong>Pengumuman</strong><small>Menerima informasi dan ajakan dari pengurus.</small></div>
+        <div class="card"><strong>Riwayat</strong><small>Melihat catatan sodaqoh dan status transaksi.</small></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Cara Simpan di Layar Utama HP</h2>
+      <div class="steps">
+        <div class="step"><span>1</span><p>Tekan tombol <strong>Buka Aplikasi S3</strong>.</p></div>
+        <div class="step"><span>2</span><p>Setelah aplikasi terbuka di Chrome, tekan menu titik tiga di kanan atas.</p></div>
+        <div class="step"><span>3</span><p>Pilih <strong>Tambahkan ke layar utama</strong>.</p></div>
+        <div class="step"><span>4</span><p>Tekan <strong>Tambah</strong>. Ikon aplikasi S3 akan muncul di halaman utama HP.</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Cara Daftar Anggota</h2>
+      <div class="steps">
+        <div class="step"><span>1</span><p>Buka aplikasi S3 dari tombol di atas.</p></div>
+        <div class="step"><span>2</span><p>Pilih <strong>Daftar Sekarang</strong>.</p></div>
+        <div class="step"><span>3</span><p>Isi nama lengkap, nama tampil, angkatan 4 digit contoh 1988, nomor HP, username, dan PIN minimal 4 angka.</p></div>
+        <div class="step"><span>4</span><p>Kirim pendaftaran dan tunggu verifikasi pengurus.</p></div>
+      </div>
+    </section>
+
+    <div class="footer">
+      Jazakumullahu khairan. Terima kasih sudah ikut mencoba aplikasi S3.
+    </div>
+  </main>
+</body>
+</html>
